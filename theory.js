@@ -28,3 +28,6 @@ mouseup:
 Method1:获取目标元素的不可见的父元素.通过克隆然后扩展$.fn.width(及其它的如outerWidth)来计算元素的style再删除掉克隆元素
 Method2:把目标元素的父元素设置为show然后再去获取
 
+
+// 一个文本框中运行代码的原理
+利用var newWindow = window.open('about:blank');newWindow.document.write(textareaValue);
