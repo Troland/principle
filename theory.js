@@ -31,3 +31,9 @@ Method2:把目标元素的父元素设置为show然后再去获取
 
 // 一个文本框中运行代码的原理
 利用var newWindow = window.open('about:blank');newWindow.document.write(textareaValue);
+
+
+
+// 带虚线框的拖拽框是加一个div类了随便起然后当mosuedown的时候让虚线框宽度高和被拖拽的DIV的宽和高
+mouseup的时候设置被拖拽的left和top和虚线框的left和top然后删除虚线框
+// 磁性吸附是当在一个数值范围的时候让其比如left变为0造成瞬间吸附的假象
